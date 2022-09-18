@@ -2,7 +2,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
  @font-face {
      font-family: "Lato";
-     src: url("../fonts/ Lato-Bold.woff2") format("woff2"),url("../fonts/Lato-Bold.woff")
+     src: url("../fonts/ Lato-Bold.woff2")format("woff2"),url("../fonts/Lato-Bold.woff")
          format("woff");
     font-weight: 700;
       font-style: normal;
@@ -10,7 +10,7 @@
       }
  @font-face {
   font-family: "Lato";
-    src:url("../fonts/ Lato-Black.woff2")format("woff2") url("../fonts/Lato-Black.woff") 
+    src:url("../fonts/ Lato-Black.woff2")format("woff2"),url("../fonts/Lato-Black.woff") 
         format(woff);
         font-weight: 900;
      font-style: normal;
@@ -18,16 +18,16 @@
   }  
 @font-face {
  font-family: "Lato";
- src: url("../fonts/Lato-Regular.woff2") format("woff2"),
-  url("../fonts/Lato-Regular.woff") format("woff");
+ src: url("../fonts/Lato-Regular.woff2")format("woff2"),
+  url("../fonts/Lato-Regular.woff")format("woff");
       font-weight: 400;
      font-style: normal;
         font-display: swap;
     }
  @font-face {
-            font-family: 'Larsseit';
-            src: url("../fonts/ Larsseit-Regular.woff2"),
-                url("Larsseit-Regular.woff") format('woff');
+            font-family: "Larsseit";
+            src: url("../fonts/ Larsseit-Regular.woff2")format("woff2"),
+                url("Larsseit-Regular.woff")format('woff');
             font-weight: 400;
             font-style: normal;
             font-display: swap;
@@ -35,16 +35,19 @@
      
      header{
         font-family: "Lato";
-        font-weight: 400;
-     }
-     body{
-        font-family: "Larsseit";
         font-weight: 900;
      }
-     li {
-        font-family:"Lato";
-        font-weight: 700;
+     body{
+        font-family: "Lato";
+        font-weight: 400;
      }
+      li{
+         font-family:"Larsseit";
+         font-weight: 400;
+      }
+   
+        
+     
      .text {
         color: blue;
      }
