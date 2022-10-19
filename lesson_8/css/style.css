@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+  font-family: "Lato";
+  color: #424551;
+}
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+  .page__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1e212c;
+    margin-bottom: 40px;
+  }
+  .page__text p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 160%;
+    color: #1e212c;
+    margin-bottom: 25px;
+  }
+  .page__text ul {
+    margin-bottom: 50px;
+  }
+  .page__text li {
+    min-height: 20px;
+    margin-bottom: 4px;
+    padding-left: 32px;
+  background: url(../img/Vector.svg) 0 3px no-repeat;
+  }
+    .page__title6 {
+      font-weight: 700;
+      line-height: 150%;
+      margin-bottom: 10px;
+    }
+    .tutor__position{
+      font-size: 20px;
+      line-height: 30px;
+      color: #787A80;
+      margin-bottom: 32px;
+    }
+    .page__text1 {
+      line-height: 25.6px;
+      margin-bottom: 48px;
+      margin-top: 30px;
+    }
+    .tutor__list li:first-child::before{
+      background: url(../img/Star.svg) 0 0 no-repeat;
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .tutor__list li:nth-child(2)::before {
+      background: url(../img/Vektor1.png) 0 0 no-repeat;
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .tutor__list li:last-child::before {
+      background: url(../img/Vektor2.svg) 0 0 no-repeat;
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .icons a:not(:last-child){
+      margin-right: 24px;
+    }
+    .icons {
+      margin-bottom: 60px;
+    }
+    .icons a:nth-child(1)::before{
+      content: "";
+      display: inline-block;
+      background: url(../img/vector3.png);
+      height: 22px;
+      width: 12px;
+    }
+    .icons a:nth-child(2)::before {
+      content: "";
+      display: inline-block;
+      background: url(../img/vector4.png);
+      height: 16px;
+      width: 24px;
+    }
+    .icons a:nth-child(3)::before {
+      content: "";
+      display: inline-block;
+      background: url(../img/vector5.png);
+      height: 18px;
+      width: 24px;
+    }
+    .icons a:nth-child(4)::before {
+      content: "";
+      display: inline-block;
+      background: url(../img/vector6.svg);
+      height: 20px;
+      width: 20px;
+    }
+    .page__text-before, pseudoclasses {
+      background-color: rgb(184, 236, 186);
+      margin-bottom: 20px;
+      max-width: 600px;
+      border: 10px red solid;
+    }
+      .page__text-before p {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        color: #241e2c;
+        margin-bottom: 25px;
+      }
+      .page__text-before ul li::before{
+        background: url(../img/Vector.svg) 0 8px no-repeat;
+        content: "";
+        width: 16px;
+        height: 24px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+        .section{
+          background-color: rgb(102, 138, 186);
+          color: white;
+          padding: 15px;
+          margin-bottom: 25px;
+        }
+        .section-item{
+          visibility: hidden;
+        }
+        .section:hover .section-item{
+          visibility: visible;
+        
+        transition: all 0.1s ease 0s;
+      }
+      .page__text-before ul li:hover::before{
+        transform: scale(1.5);
+       transition: all 0.1s ease 0s;
+    }
+      .pseudoclasses {
+        font-weight: 700;
+        font-size: 28px;
+      }
+      [class*="__blok"]{
+        margin-bottom: 20px;
+        background-color: rgb(244, 96, 195);
+        text-align: center;
+        font-size: 25px;
+        line-height: 150%;
+        text-transform: capitalize;
+        max-width: 500px;
+      }
+      .hover__blok:hover{
+        background-color: gold;
+      }
+      .hover:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+      .active:active {
+        color:blue;
+        text-decoration: underline;
+      }
+      
+      
+      
+      .focus:focus {
+        outline: 3px double blue;
+      }
+      .target:target {
+        text-decoration: overline;
+      }
+      
+      
+      .block7 {
+        margin-bottom: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+      }
+      .block7 li:not(:last-child){
+        margin-bottom: 10px;
+      }
+      .block7 li::before{
+        background: url(../img/Vector.svg) 0 0 no-repeat;
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        transition: all 0.8s ease 0s;
+      
+      }
+      .block7 li:first-child:hover::before{
+        transform: scale(1.5);
+      
+      }
+      
+      .block7 li:nth-child(2):hover::before{
+        transition: all 0.8s ease 0s;
+        transform: rotate(-360deg);
+      }
+      
+      .block7 li:nth-child(3):hover::before{
+        transition: all 0.8s ease 0s;
+        transform: rotate(360deg);
+      }
+      .block7 li:nth-child(4):hover::before{
+        transition: all 0.8s ease 0s;
+        transform: rotate(180deg);
+      }
+      
+      
+      .block7 li:last-child:hover::before{
+        transform: scale(2);
+      
+      }
+      .list-under{
+        margin-bottom: 50px;
+      }
+      
+      .list-under ul{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+      
+      }
+      
+      .list-under li{
+        margin-bottom: 10px;
+      }
+      
+      .list-under ul ul {
+        display: none;
+      }
+      .list-under ul a:hover + ul{
+        display: block;
+      }
+      .button {
+        background-color: rgb(29, 243, 29);
+        width: 60px;
+        margin-left: 130px;
+        margin-bottom: -50px;
+        height: 40px;
+        border-radius: 5px;
+      }
+
+      .game {
+
+        min-height: 700px;
+        background: url("../img/642.jpg") 0 0 / cover no-repeat;
+      }
+      .game-container {
+        min-height: 700px;
+        background:url("../img/642.jpg") 0 0 / cover no-repeat; 
+      }
+         
+         
+        
+        
+      
+      
+      .start {
+        height: 100px;
+       width: 100px;
+       margin-top: 50px;
+       margin-left: 100px;
+       background: url("../img/03.jpg") -35px 0 / cover no-repeat;
+       
+     } 
+     .start:hover{
+      background: url("../img/03.jpg") 0 0 / contain no-repeat;
+    }
+    
+    .start:hover + .line1,
+    .line1:hover{
+      visibility: visible;
+      
+    }
+    .line1{
+      width: 50px;
+      height: 50px;
+      
+      background: url('../img/03.jpg') 0 0 / cover no-repeat;
+      margin-left: 110px;
+      margin-top: 0px;
+      visibility: hidden;
+    }
+    .line1:hover + .line2,
+      .line2:hover {
+	visibility: visible;  
+      }
+     .line2  {
+
+	height: 50px;
+	width: 650px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 110px;
+	visibility: hidden;
+}
+.line2:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line2:hover + .line3,
+.line3:hover{
+	visibility: visible;
+}
+.line3 {
+
+	height: 150px;
+	width: 50px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 710px;
+	visibility: hidden;
+		
+}
+.line3:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+
+.line3:hover + .line4,
+.line4:hover{
+	visibility: visible;
+}
+.line4 {
+	height: 50px;
+	width: 200px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 660px;
+	visibility: hidden;
+}
+
+.line4:hover::after{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line4:hover + .line5,
+.line5:hover{
+	visibility: visible;
+}
+.line5 {
+	height: 100px;
+	width: 50px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 660px;
+	visibility: hidden;
+}
+.line5:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line5:hover + .line6,
+.line6:hover{
+	visibility: visible;
+}
+.line6 {
+	height: 50px;
+	width: 400px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 660px;
+	visibility: hidden;
+}
+.line6:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line6:hover + .line7,
+.line7:hover{
+	visibility: visible;
+}
+.line7 {
+	height: 500px;
+	width: 50px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 910px;
+	margin-top: -500px;
+	visibility: hidden;
+}
+.line7:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line7:hover + .line8,
+.line8:hover{
+	visibility: visible;
+}
+
+.line8:hover + .line9,
+.line9:hover{
+	visibility: visible;
+}
+.line8 {
+	height: 50px;
+	width: 200px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 910px;
+	margin-top: -500px;
+	visibility: hidden;
+}
+
+.line8:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+.line9:hover + .line10,
+.line10:hover{
+	visibility: visible;
+}
+.line9 {
+
+	height: 500px;
+	width: 50px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 1060px;
+	visibility: hidden;
+	
+}
+.line9:hover::after{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+
+.line10:hover + .line11,
+.line11:hover{
+	visibility: visible;
+}
+.line10{
+	height: 50px;
+	width: 900px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 210px;
+	visibility: hidden;
+}
+
+.line10:hover::before{
+	content: "";
+	height: 50px;
+	width: 50px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+}
+
+.line11:hover {
+	visibility: visible;
+}
+.line11{
+	height: 200px;
+	width: 50px;
+	
+	background: url('../img/03.jpg') 0 0 / contain;
+	margin-left: 210px;
+	margin-top: -200px;
+	visibility: hidden;
+}
+
+.line11:hover::after{
+	content: "";
+	height: 1000px;
+	width: 890px;
+	background: url("../img/03.jpg") 0 0 / contain no-repeat;
+	display: inline-block;
+	margin-top: -450px;
+	margin-left: -100px;
+}
+.finish {
+	height: 300px;
+	width: 150px;
+	margin-top: -420px;
+	margin-left: 150px;
+	background: url("../img/03.jpg") 0 0 / 150px 300px no-repeat ;
+}
+.name-game {
+	margin-bottom: 50px;
+	font-weight: 900;
+	font-size: 50px;text-align:center;
+}
+ .name-game:hover {
+  color: red;
+   transition:all 2s ease 0s ;
+ }
+	.footer {
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 50px;text-align: center;
+  }
+ .footer:hover {
+  color: rgb(255, 0, 166);
+  transition: all 2s ease 0s;
+ }
+
+
+
+
+
+
+
