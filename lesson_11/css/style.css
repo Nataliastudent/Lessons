@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+   font-family: "Lato";
+
+}
+header{
+   font-weight: 700;
+   font-size: 40px;
+   color: rgb(84, 14, 149);
+   text-align: center;
+}
+header {
+   position: fixed;
+   width: 100%;
+   
+   left: 0px;
+   top: 0px;
+   padding: 50px;
+   background-color: rgba(40, 174, 40, 0.747);
+   opacity: 0,5;
+   z-index: 100;
+}
+main {
+   background-color: rgb(121, 185, 248);
+   height: 1600px;
+}
+.fixed {
+   max-width: 200px;
+   min-height: 50px;
+   background-color: rgb(101, 101, 196);
+   color: aliceblue;
+   text-align: center;
+   padding: 20px;
+   position: fixed;
+   top: 400px;
+   left: 0px;
+   border-radius: 15px;
+}
+.car-page {
+   max-width: 1200px;
+   min-height: 700px;
+   
+   margin: auto;
+   position: relative;
+}
+.car-page__details {
+   position: absolute;
+   top: 430px;
+   left: 10px;
+}
+.car__upper-body {
+   background-color: brown;
+   width: 220px;
+   height: 114px;
+   border-radius: 30%;
+   position: absolute;
+   left: 180px;
+   top: 45px;
+   z-index: 0;
+   outline: 3px solid;
+}
+.car__down-body {
+   background-color: brown;
+   width: 380px;
+   height: 100px;
+   border-radius: 30% ;
+   position: absolute;
+   left: 130px;
+   top: 105px;
+   z-index: 2;
+   box-shadow: 3px 25px 8px black;
+   outline: 3px solid;
+}
+.car-wheel {
+   background-color: rgb(165, 131, 131);
+   border-radius: 70%;
+   width: 70px;
+   height: 70%;
+   position: absolute;
+   top: 170px;
+   left: 180px;
+   z-index: 3;
+   box-shadow: 1px 9px 4px black;
+}
+.car__wheel-right{
+   position: absolute;
+   left: 350px;
+}
+.car__rim {
+   background-color: rgb(119, 123, 128);
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top: 180px;
+   left: 175px;
+   z-index: 4;
+   border: 4px dashed;
+}
+.car__rim--right {
+   position: absolute;
+   left: 390px;
+}
+.car__window {
+   background-color: rgb(198, 198, 206);
+   width: 175px;
+   height: 80px;
+   border-radius: 30%;
+   position: absolute;
+   top: 53px;
+   left: 218px;
+   z-index: 1;
+   outline: 2px solid;
+}
+.car__spotlight {
+   background-color: rgb(225, 225, 22);
+   border-radius: 35%;
+   width: 40px;
+   height: 30px;
+   position: absolute;
+   top: 120px;
+   left: 465px;
+   z-index: 2;
+   outline: 2px solid;
+}
+.car__spotlight:hover {
+	background-color: #7908fb;
+	transition: all 0.8s ease 0s;
+}
+.text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+.text p {
+	color: azure;
+	padding: 10px;
+	position: sticky;
+	top: 500px;
+}
+span {
+	color: crimson;
+	font-weight: 900;
+	font-size: 30px;
+}
+.text__p--orange {
+	background-color: rgb(200, 116, 85);
+	z-index: 1;
+}
+.text__p--red {
+	background-color: rgb(181, 116, 158);
+}
+.text__p--braun {
+	background-color: rgb(94, 94, 153);
+}
+.text__p--blue {
+	background-color: rgb(72, 72, 212);
+}
+
+  
+  
+
+
+
+
+  
+  
+
+
