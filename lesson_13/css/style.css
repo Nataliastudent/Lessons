@@ -1,0 +1,137 @@
+body {
+    background:url("../img/643.jpg");
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+.page__container{
+    max-width: 1500px;
+    margin: 0 auto;
+    background:url(../img/02.jpg);
+    border-radius: 50px;
+    margin-top: 100px;
+    padding: 50px;
+    animation: page 3s ease 1s forwards;
+}
+.block__item {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background:url(../img/02.jpg);
+    border-radius: 20px;
+    transition: all 2s ease;
+    outline: 7px dashed rgb(128, 0, 92);
+}
+.block:hover .block__item {
+    width: 200px;
+    height: 200px;
+}
+
+.text__title {
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 0;
+    transform: translate(0,50%);
+    animation: title 0,3s ease 4s forwards;
+}
+.text__title:not(:last-child){
+    margin-bottom: 30px;
+}
+.text__subtitle {
+    font-size: 34px;
+    opacity: 0;
+    transform: translate(0,50%);
+    animation: title 0,3s ease 4,3 forwards;
+}
+.text__subtitle:not(:last-child){
+    margin-bottom: 15px;
+}
+.text__lorem { 
+    background-color: rgba(100, 148, 237, 0.615);
+    
+    
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.2;
+    opacity: 0;
+    transform: translate(0,50%);
+    animation: title 3s ease 4.6s forwards;
+}
+@keyframes title {
+    0%{
+        transform: translate(0,50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0%);
+        opacity: 1;
+    }
+}
+.animation {
+    position: relative;
+}
+.animation__block{
+ width: 150px;
+ height: 150px;
+ background:url(../img/01.jpg);
+ border-radius: 50%;
+ padding-bottom: 50px;
+ animation: animation-translate 2s ease infinite alternate;
+}
+@keyframes  animation-translate {
+    0%{
+        transform: translate(0%,0);
+    }
+    100%{
+        transform: translate(850%,0);
+    }
+}
+.animation__rotate{
+    position: absolute;
+    left: 0;
+    padding-bottom: 50px;
+    width: 100px;
+    height: 150px;
+    background:url(../img/01.jpg);
+    border-radius: 50%;
+    animation: animation-rotate 2s ease infinite;
+}
+@keyframes  animation-rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.animation__rotation{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 150px;
+    background:url(../img/01.jpg);
+    border-radius: 50%;
+    animation: animation-rotate 2s linear infinite;
+}
+@keyframes page {
+    0%{
+        transform: translate(-200%,0);
+    }
+    100%{
+        transform: translate(0%,0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
